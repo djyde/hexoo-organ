@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- css('css/base.css') %>
+    <%- css('css/typo.css') %>
+
+    <title><%- config.title %></title>
+  </head>
+  <body>
+    <div id="background">
+      <%- partial('_partial/header') %>
+      <%- body %>
+      <%- partial('_partial/footer.ejs') %>
+    </div>
+
+  </body>
+</html>
